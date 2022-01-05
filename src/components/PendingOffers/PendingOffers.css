@@ -1,0 +1,63 @@
+.row{
+    display: flex;
+    height: 150px;
+    max-height: 150px;
+}
+.img{
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
+.pic{
+    max-width: 200px;
+    max-height: 200px;
+}
+.price-col{
+    max-width: 200px;
+    padding: 10px;
+}
+.span{
+    font-weight: bold;
+}
+.column{
+    flex: 50%;
+    padding: 10px;
+    max-width: 220px;
+    height: 180px;
+}
+#container{
+    max-width: 750px;
+    margin: 25px auto;
+    overflow: auto;
+    padding: 30px;
+    border: 2px solid gray;
+    position: relative;
+    max-height: 250px;
+    border-radius: 10px;
+    background-color: white;
+}
+.buton{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.background{
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    max-width: 850px;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

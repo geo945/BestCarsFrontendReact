@@ -1,0 +1,27 @@
+.settings-container{
+    margin: auto;
+    height: 700px;
+    width: 100%;
+    max-height: 700px;
+    max-width: 1000px;
+    padding: 30px;
+}
+
+#link{
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+#link:hover{
+    color: white;
+    background-color: steelblue;
+}
+
+#settingsMenuLink{
+    text-decoration: none;
+    color: black;
+}

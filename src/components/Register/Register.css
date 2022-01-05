@@ -1,0 +1,9 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: auto;
+    padding: 30px;
+    border: 2px solid steelblue;
+    border-radius: 20px;
+    position: relative;
+}

@@ -1,0 +1,10 @@
+#reset{
+    border-radius: 6px;
+    border: 2px solid gray;
+    transition: color 0.1s, background-color 0.1s;
+}
+#reset:hover{
+    color: white;
+    background-color: seagreen;
+    border: 2px solid seagreen;
+}
